@@ -4,7 +4,6 @@
     "target": "es2023",
     "lib": ["ES2023", "DOM"],
     "module": "esnext",
-    "types": ["vite/client"],
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -20,16 +19,6 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
-
-    // "compilerOptions": {
-    //   "target": "ESNext",
-    //   "module": "ESNext",
-    //   "moduleResolution": "Bundler",
-    //   "skipLibCheck": true,
-    //   "paths": {
-    //     "@/*": ["./src/*"]
-    //   }
-    // }
   },
   "include": ["src"]
 }
